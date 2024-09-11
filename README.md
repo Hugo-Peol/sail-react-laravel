@@ -47,13 +47,13 @@ Ou caso você tenha um alias para o sail, utilise seu alias.
 ```bash
 ./vendor/bin/sail composer install
 ```
-6. Instalar as dependências do Node.js
+### 6. Instalar as dependências do Node.js
 
 ```bash
 ./vendor/bin/sail npm install
 ```
 
-7. Rodar as migrações do banco de dados
+### 7. Rodar as migrações do banco de dados
 
 Execute as migrações para criar as tabelas no banco de dados:
 
@@ -61,7 +61,7 @@ Execute as migrações para criar as tabelas no banco de dados:
 ./vendor/bin/sail php artisan migrate
 ```
 
-8. Ajuste a configuração do vite.config.js para funcionar com o sail:
+### 8. Ajuste a configuração do vite.config.js para funcionar com o sail:
 
 ```javascript
 import { defineConfig } from 'vite';
@@ -89,7 +89,7 @@ export default defineConfig({
 });
 ```
 
-9. Compilar os assets do React
+### 9. Compilar os assets do React
 
 ```bash
 ./vendor/bin/sail npm run dev
