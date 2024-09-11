@@ -63,6 +63,8 @@ Execute as migrações para criar as tabelas no banco de dados:
 
 ### 8. Ajuste a configuração do vite.config.js para funcionar com o sail:
 
+No projeto, está configurado para funcionar com localhost.
+
 ```javascript
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
